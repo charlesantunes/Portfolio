@@ -1,10 +1,12 @@
 import React from 'react';
-
+import Router from './Service/routes'
+import { GlobalStyle } from './Components/Global/index';
 
 export default function App() {
   return(
     <>
-      <h1>Portfólio em Construção</h1>
+      <GlobalStyle />
+      <Router />
     </>
   )
 }
