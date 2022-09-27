@@ -1,15 +1,16 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
+    position: absolute;
     background-color: #2f434f;
     width: 20%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
     nav{
-    //    border: solid #fff;
+        //    border: solid #fff;
         width: 60%;
         height: 50%;
     }
@@ -20,7 +21,7 @@ export const Container = styled.section`
         height: 0.9px;
         margin-bottom: 3vh;
     }
-
+    
     ul{
         width: 100%;
         height: 50vh;
@@ -30,7 +31,7 @@ export const Container = styled.section`
         justify-content: space-around;
     }
     li{
-    //    border: solid;
+        //    border: solid;
         width: 90%;
         font-size: 1.5rem;
         display: flex;
@@ -74,8 +75,8 @@ export const Container = styled.section`
         background-color: #3e8e41
     }
     button:active {
-  transform: translateY(4px);
-}
+        transform: translateY(4px);
+    }
     input{
         font-family:'Henny Penny', cursive;
         height: 6vh;

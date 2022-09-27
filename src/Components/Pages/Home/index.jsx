@@ -6,8 +6,8 @@ import * as S from './style'
 export default function Home() {
     return(
         <>
-            <S.Container>
             <Menu />
+            <S.Container>
                 <h1>home</h1>
             </S.Container>
         </>

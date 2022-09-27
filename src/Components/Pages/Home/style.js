@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.section`
     background-color: #354650;
-    width: 100%;
+    margin-left: 20%;
+    width: 80%;
     height: 100vh;
 
 `

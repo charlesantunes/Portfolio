@@ -3,12 +3,12 @@ import React from "react";
 import Menu from '../../Menu/index'
 import * as S from './style'
 
-export default function About() {
+export default function Contact() {
     return(
         <>
             <Menu />
             <S.Container>
-                <h1>Sobre</h1>
+                <h1>Contatos</h1>
             </S.Container>
         </>
     )
