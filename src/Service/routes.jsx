@@ -5,6 +5,7 @@ import About from '../Components/Pages/About/index'
 import Skills from '../Components/Pages/Skills/index'
 import Projects from '../Components/Pages/Projects/index'
 import Contact from '../Components/Pages/Contacts/index'
+import Harry from '../Components/Pages/Projects/HarryPotter/index'
 
 export default function RoutesApp(){
     return(
@@ -15,6 +16,7 @@ export default function RoutesApp(){
                 <Route path="/skills" element={<Skills />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/harry-potter" element={<Harry />} />
             </Routes>
 
         </Router>

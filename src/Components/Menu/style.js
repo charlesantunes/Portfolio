@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
+border: solid;
     position: absolute;
     background-color: #2f434f;
     width: 20%;
@@ -10,7 +11,7 @@ export const Container = styled.section`
     align-items: center;
     
     nav{
-        //    border: solid #fff;
+        //    border: solid #fff;z
         width: 60%;
         height: 50%;
     }
