@@ -5,13 +5,17 @@ import ImgAbout from '../../Assets/about2.gif'
 import ImgSkills from '../../Assets/skills2.gif'
 import ImgProjects from '../../Assets/projects2.gif'
 import ImgContact from '../../Assets/contact2.gif'
+import Charles from '../../Assets/charles.png'
 
 import * as S from './style'
 
 export default function Menu() {
     return(
         <S.Container>
-            <nav>
+            <S.Img>
+                <img src={Charles} alt="imagem do perfil do Charles"/>
+            </S.Img>
+            <S.Box>
                 <ul>
                     <li>
                         <img src={ImgHome}  alt="imagem"/>
@@ -43,7 +47,7 @@ export default function Menu() {
                     </li>
                     <div/>
                 </ul>
-            </nav>
+            </S.Box>
         </S.Container>
     )
 }

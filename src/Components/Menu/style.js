@@ -1,15 +1,33 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-border: solid;
-    position: absolute;
+    border: solid;
+    position: fixed;
     background-color: #2f434f;
     width: 20%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
+    `
+    export const Img = styled.figure`
+    background-color: #c1c1c1;
+        width: 190px;
+        height: 228px;
+        margin-top: 1.5vh;
+        margin-bottom: 2.1vh;
+        border: outset 1px Darkgray;
+        border-width:5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    img{
+        width: 200px;
+    }
+    `
+
+    export const Box = styled.section`
     nav{
         //    border: solid #fff;z
         width: 60%;
@@ -61,6 +79,7 @@ border: solid;
             font-weight: bolder;
         }
     }
+    `
     /* button{
         background-color: #2f4f4f;
         padding: 1.3vh 2vw;
@@ -87,4 +106,4 @@ border: solid;
         font-size: 1rem;
         font-weight: bolder;
     } */
-    `
+    

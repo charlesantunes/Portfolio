@@ -5,5 +5,11 @@ export const Container = styled.section`
     margin-left: 20%;
     width: 80%;
     height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-evenly;
 
 `
