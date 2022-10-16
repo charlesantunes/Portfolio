@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom'
 import ImgHome from '../../Assets/home.gif'
-import ImgAbout from '../../Assets/about2.gif'
+import ImgAbout from '../../Assets/img-project/harry-potter/about2.gif'
 import ImgSkills from '../../Assets/skills2.gif'
 import ImgProjects from '../../Assets/projects2.gif'
 import ImgContact from '../../Assets/contact2.gif'
