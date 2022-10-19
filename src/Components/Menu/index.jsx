@@ -5,7 +5,7 @@ import ImgAbout from '../../Assets/img-project/harry-potter/about2.gif'
 import ImgSkills from '../../Assets/skills2.gif'
 import ImgProjects from '../../Assets/projects2.gif'
 import ImgContact from '../../Assets/contact2.gif'
-import Charles from '../../Assets/charles.png'
+import Charles from '../../Assets/charlesAvatar.png'
 
 import * as S from './style'
 

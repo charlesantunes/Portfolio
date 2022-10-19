@@ -13,8 +13,8 @@ export const Container = styled.section`
     `
     export const Img = styled.figure`
     background-color: #c1c1c1;
-        width: 190px;
-        height: 228px;
+        width: 145px;
+        height: 200px;
         margin-top: 1.5vh;
         margin-bottom: 2.1vh;
         border: outset 1px Darkgray;
@@ -23,7 +23,8 @@ export const Container = styled.section`
         justify-content: center;
         align-items: center;
     img{
-        width: 200px;
+        width: 100%;
+        height: 190px;
     }
     `
 
