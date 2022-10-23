@@ -19,7 +19,7 @@ export default function Home() {
 
                         <nav>
                             <button>Contato</button>
-                            <button>Baixar CV</button>
+                            <button><a href="https://drive.google.com/file/d/1jEDrDBhGcM1n9ckoenJacTRczV0NhTAf/view?usp=sharing" target="_blanc">Baixar CV</a></button>
                         </nav>
                     </S.Content>
                     <figure>

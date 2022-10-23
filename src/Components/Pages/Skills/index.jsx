@@ -8,7 +8,35 @@ export default function Skills() {
         <>
             <Menu />
             <S.Container>
-                <h1>Skills</h1>
+                <S.SecBox>
+
+                    <S.BoxTitle>
+                        <h1>Skills</h1>
+                    </S.BoxTitle>
+
+
+                    <S.BoxSkill>
+                        <S.CardSkill>
+                            <img src="" alt="HTML"/>
+                        </S.CardSkill>
+                        <S.CardSkill>
+                            <img src="" alt="HTML"/>
+                        </S.CardSkill>
+                        <S.CardSkill>
+                            <img src="" alt="HTML"/>
+                        </S.CardSkill>
+                        <S.CardSkill>
+                            <img src="" alt="HTML"/>
+                        </S.CardSkill>
+                        <S.CardSkill>
+                            <img src="" alt="HTML"/>
+                        </S.CardSkill>
+                        <S.CardSkill>
+                            <img src="" alt="HTML"/>
+                        </S.CardSkill>
+                    </S.BoxSkill>
+                    
+                </S.SecBox>
             </S.Container>
         </>
     )

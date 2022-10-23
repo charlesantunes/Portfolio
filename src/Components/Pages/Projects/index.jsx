@@ -18,19 +18,19 @@ export default function Projects() {
                     <S.Card>
                         <h2>Onu</h2>
                         <img src={ImgOnu} alt={'imagem em um card do Harry Potter'} /> 
-                        <button><a href="https://onu-brasil-para-belem-souza.herokuapp.com/" target={"_blanc"}>Ver</a></button>
+                        <button><a href="http://onu-brasil-para-belem-souza.herokuapp.com/" target={"_blanc"}>Ver</a></button>
                     </S.Card>
 
                     <S.Card>
                         <h2>Api Harry Potter</h2>
                         <img src={HarryPotter} alt={'imagem em um card do Harry Potter'} /> 
-                        <button onClick={()=>{window.location.replace('https://charles-harry-potter.herokuapp.com/harry-potter') }}>Ver</button>
+                        <button onClick={()=>{window.location.replace('http://charles-harry-potter.herokuapp.com/harry-potter') }}>Ver</button>
                     </S.Card>
 
                     <S.Card>
                         <h2>Trabalho em equipe</h2>
                         <img src={Team} alt={'imagem em um card do trabalho em equipe'} />
-                        <button onClick={()=>{window.location.replace('https://charles-adriana.herokuapp.com/') }}>Ver</button>
+                        <button onClick={()=>{window.location.replace('http://charles-adriana.herokuapp.com/') }}>Ver</button>
                     </S.Card>                             
                 </S.Box>
 
@@ -45,7 +45,7 @@ export default function Projects() {
                     <S.Card>
                      <h2>Trabalho em equipe</h2>
                         <img src={Team} alt={'imagem em um card do trabalho em equipe'} />
-                        <button onClick={()=>{window.location.replace('https://charles-adriana.herokuapp.com/') }}>Ver</button>
+                        <button onClick={()=>{window.location.replace('http://charles-adriana.herokuapp.com/') }}>Ver</button>
                     </S.Card>
                 </S.Box>
                 

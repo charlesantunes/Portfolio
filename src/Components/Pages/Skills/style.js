@@ -1,9 +1,0 @@
-import styled from "styled-components";
-
-export const Container = styled.section`
-    background-color: #04151e;
-    margin-left: 20%;
-    width: 80%;
-    height: 100vh;
-
-`
