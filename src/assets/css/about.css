@@ -7,20 +7,21 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     object-fit: cover;
-    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    color: black;
 }
 .container-main-about{
     display: flex;
     margin: .5rem  0  0 280px;
     height: 90vh;
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #2c71e1;
+    font-size:1rem;
+    font-weight: 400;
 }
 .trajetoria{
     margin: 2rem 3rem 0 0;
 }
 .trajetoria h2{
+    font-size:1.5rem;
     text-align: center;
     margin-bottom: 1rem;
 }

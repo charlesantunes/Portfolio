@@ -7,7 +7,6 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100vh;
     object-fit: cover;
-    color: #fff;
 }
 .container-main-home{
     /* background-color: #354650; */
@@ -39,7 +38,10 @@ body {
     color: #2c71e1;
     font-weight: bolder;
 }
+.trajetoria p{
+    color: #2c71e1;
 
+}
 
 /*traçado pela foto 
 figure {
