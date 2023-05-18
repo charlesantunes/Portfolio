@@ -1,0 +1,11 @@
+@import url(_reset.css);
+@import url(_variaveis.css);
+@import url(base/base.css);
+
+body {
+    background-image: url("../img/caverna-dungeon-com-túmulo.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    object-fit: cover;
+    color: #fff;
+}

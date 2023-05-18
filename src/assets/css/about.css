@@ -1,0 +1,26 @@
+@import url(_reset.css);
+@import url(_variaveis.css);
+@import url(base/base.css);
+
+body{
+    background-image: url("../img/Montanha.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    color: #fff;
+}
+.container-main-about{
+    display: flex;
+    margin: .5rem  0  0 280px;
+    height: 90vh;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2c71e1;
+}
+.trajetoria{
+    margin: 2rem 3rem 0 0;
+}
+.trajetoria h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}

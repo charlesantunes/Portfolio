@@ -1,0 +1,105 @@
+@import url(_reset.css);
+@import url(_variaveis.css);
+@import url(base/base.css);
+
+body {
+    background-image: url("../img/caverna-complexo.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    object-fit: cover;
+    color: #fff;
+}
+.container-main-home{
+    /* background-color: #354650; */
+    display: flex;
+    margin: .5rem 0 0 280px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #2c71e1;
+
+}
+.trajetoria h1, .trajetoria h2, .trajetoria p{
+    margin-bottom: 1.7rem;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.trajetoria h1, .trajetoria span {
+    font-family: Clicker Script, cursive;
+    color: #2c71e1;
+    font-size: 1.67em;
+    font-weight: bolder;
+}
+
+
+.trajetoria h2{
+    color: #2c71e1;
+    font-weight: bolder;
+}
+
+
+/*traçado pela foto 
+figure {
+    ::before {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-top: solid 5px white;
+        border-left: solid 5px white;
+        display: block;
+        background-color: #354650;
+    } 
+    
+    ::after {
+        content: '';
+        position: absolute;
+        right: 0%;
+        top: 190px;
+        width: 40px;
+        height: 40px;
+        border-bottom: solid 5px white;
+        border-right: solid 5px white;
+        display: block;
+        background-color: #354650;
+    }
+}
+*/
+    
+
+.img-foto-home {
+    position: relative;
+    z-index: 1;
+    width: 200px;
+}
+
+.nav-botao {
+    margin: 3em auto 0;
+    width: 50%;
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-botao button {
+        font-family: 'Henny Penny', cursive;
+        background-color: #2f4f4f;
+        padding: 1vh 2vw;
+        border: outset 0.5px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 5px #999;
+    }
+
+.nav-botao button:hover {
+    background-color: #3e8e41
+}
+
+.nav-botao button:active {
+    transform: translateY(4px);
+}
