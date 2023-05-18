@@ -67,6 +67,8 @@
 	align-items: center;
 	flex-wrap: wrap;
 	margin-bottom: 0.5rem;
+	color: #fff;
+	text-decoration: none;
 }
 .list-menu a img{
 	width: 45px;
