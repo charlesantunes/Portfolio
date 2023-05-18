@@ -3,7 +3,7 @@
 @import url(base/base.css);
 
 body {
-    background-image: url("../img/caverna-dungeon-com-túmulo.gif");
+    background-image: url("../img/caverna-complexo.gif");
     background-repeat: no-repeat;
     background-size: 100% 100vh;
     object-fit: cover;

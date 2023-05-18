@@ -7,8 +7,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     object-fit: cover;
-    font-family: 'Press Start 2P', cursive;
-    color: black;
+    color: #fff;
 }
 .container-main-about{
     display: flex;
@@ -16,6 +15,7 @@ body{
     height: 90vh;
     font-size:1rem;
     font-weight: 400;
+    font-family: 'Press Start 2P', cursive;
 }
 .trajetoria{
     margin: 2rem 3rem 0 0;
