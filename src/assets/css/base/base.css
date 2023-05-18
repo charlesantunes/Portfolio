@@ -30,6 +30,9 @@
 	box-sizing: border-box;
 	font-family: 'Quando', serif;
 	scroll-behavior: smooth;
+	color: #fff;
+	text-decoration: none;
+
 }
 
 .card-logo-carrossel{
