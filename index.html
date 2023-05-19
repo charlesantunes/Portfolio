@@ -57,7 +57,20 @@
                     tornando fácil a manutenção dos códigos. </p>
                 
                 <nav class="nav-botao">
-                    <button><a href="mailton:charleswcantunes@gmail.com" target="_blank" rel="noopener noreferrer"></a> E-mail</button>
+                    <button id="open-modal" class="btn-modal"><a href="mailton:charleswcantunes@gmail.com" target="_blank" rel="noopener noreferrer"></a> Mensagem</button>
+                    <div id="fade" class="hide"></div>
+                    <div id="modal" class="hide">
+                        <div class="modal-header">
+                            <h2>colocar o form</h2>
+                            <button id="close-modal" class="btn-modal">Fechar</button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, at? Nihil praesentium harum soluta neque ipsum ea quo aspernatur necessitatibus cumque qui debitis error corporis quia quod, minima similique alias!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum doloribus aperiam quae architecto dignissimos necessitatibus? Ullam eum blanditiis, ab iste quisquam voluptatem animi odit possimus perspiciatis, ducimus deleniti adipisci inventore.</p>
+                        </div>
+                    </div>
+
+
                     <button><a href="https://drive.google.com/file/d/1XnnJj3cmhn1GR22GZDv_FwQpv3vVL6xN/view?usp=share_link"
                             target="_blanc">Baixar CV</a></button>
                 </nav>
@@ -70,7 +83,7 @@
         </div>
     </main>
 
-    <script src="src/service/script.js"></script>
+    <script src="src/service/script.js" defer></script>
 </body>
 
 </html>
