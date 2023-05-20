@@ -1,5 +1,9 @@
 @import url(_reset.css);
 @import url(_variaveis.css);
+@import url(../components/whatsapp.css);
+@import url(../components/botao.css);
+@import url(../components/modal.css);
+@import url(../components/card.css);
 
 .barra-menu{
 	width: 270px;
@@ -33,26 +37,6 @@
 	text-decoration: none;
 }
 
-.card-logo-carrossel{
-	box-shadow: 2px 2px 4px black;
-	overflow: hidden;
-	width: 260px;
-	height: 160px;
-	margin: .5rem auto;
-	border-radius: 6px;
-}
-.div-carrossel{
-	display: flex;
-	transition: transform 0.5s ease-in-out;
-	transform: translateX(0);
-}
-.div-carrossel img {
-	object-fit: cover;
-	width: 260px;
-	height: 160px;
-	border-radius: 6px;
-	
-}
 .list-menu li{
 	width: 50%;
 	margin: 0 auto;
@@ -76,24 +60,7 @@
 
 
 
-.whatsapp-link {
-	position: fixed;
-	width: 60px;
-	height: 60px;
-	bottom: 40px;
-	right: 40px;
-	background-color: #25d366;
-	color: #fff;
-	border-radius: 50px;
-	text-align: center;
-	font-size: 30px;
-	box-shadow: 1px 1px 2px #888;
-	z-index: 4;
-}
 
-.fa-whatsapp {
-	margin-top: 16px;
-}
 
 
 

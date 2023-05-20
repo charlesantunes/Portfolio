@@ -1,3 +1,4 @@
+/*Sem utilidade*/
 .card {
     background-color: var(--branco);
     border-radius: 8px;
@@ -5,4 +6,26 @@
     max-width: 752px;
     padding: 1.75rem;
     margin: 0 auto;
+}
+
+/*Carrossel do menu*/
+.card-logo-carrossel {
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    width: 260px;
+    height: 160px;
+    margin: .5rem auto;
+    border-radius: 6px;
+}
+.div-carrossel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+.div-carrossel img {
+    object-fit: cover;
+    width: 260px;
+    height: 160px;
+    border-radius: 6px;
+
 }
