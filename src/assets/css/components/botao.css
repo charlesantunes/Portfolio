@@ -18,6 +18,9 @@
     border-radius: 15px;
     box-shadow: 0 5px #999;
 }
+.nav-botao button a{
+    color: #fff;
+}
 
 .nav-botao button:hover {
     background-color: #3e8e41

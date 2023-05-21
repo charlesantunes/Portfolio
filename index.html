@@ -58,16 +58,26 @@
                 
                 <nav class="nav-botao">
                     
-                    <button id="open-modal"><a href="mailton:charleswcantunes@gmail.com" target="_blank" rel="noopener noreferrer"></a> Mensagem</button>
+                    <button id="open-modal"><a href="#" target="_blank" rel="noopener noreferrer"></a> Mensagem</button>
                     <div id="fade" class="hide"></div>
                     <div id="modal" class="hide">
                         <div class="modal-header">
-                            <h2>colocar o form</h2>
-                            <button id="close-modal" class="btn-modal">Fechar</button>
+                            <h2>Deixe sua mensagem</h2>
+                            <button id="close-modal" class="btn-close">X</button>
                         </div>
                         <div class="modal-body">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, at? Nihil praesentium harum soluta neque ipsum ea quo aspernatur necessitatibus cumque qui debitis error corporis quia quod, minima similique alias!</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum doloribus aperiam quae architecto dignissimos necessitatibus? Ullam eum blanditiis, ab iste quisquam voluptatem animi odit possimus perspiciatis, ducimus deleniti adipisci inventore.</p>
+                            <form action="https://api.staticforms.xyz/submit" method="post">
+                                <label for="name">Nome</label>
+                                <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                                <label for="email">Email</label>
+                                <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+                                <label for="">Mensagem</label>
+                                <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                                <button type="submit">Enviar</button>
+
+                                <input type="hidden" name="accessKey" value="6ae23175-f796-4dcf-8904-4b23fa5c8d1e">
+                                <input type="hidden" name="redirectTo" value="https://charlesantunes.github.io/Portfolio/">
+                            </form>
                         </div>
                     </div>
 
