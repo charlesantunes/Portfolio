@@ -1,8 +1,6 @@
-@import url(_reset.css);
-@import url(_variaveis.css);
 @import url(base/base.css);
 
-body {
+.tela1-home {
     background-image: url("../img/caverna-dungeon-com-túmulo.gif");
     background-repeat: no-repeat;
     background-size: 100% 100vh;
@@ -10,36 +8,31 @@ body {
 }
 .container-main-home{
     /* background-color: #354650; */
+    text-align: center;
     display: flex;
     margin: .5rem 0 0 280px;
     height: 90vh;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
     color: #2c71e1;
 
 }
-.trajetoria h1, .trajetoria h2, .trajetoria p{
-    margin-bottom: 1.7rem;
-    font-size: 1.3em;
-    text-align: center;
+.titulo-home{
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
 }
-
-.trajetoria h1, .trajetoria span {
+.span-home {
     font-family: Clicker Script, cursive;
-    color: #2c71e1;
-    font-size: 1.67em;
+    font-size: 1em;
     font-weight: bolder;
 }
-
-
-.trajetoria h2{
+.subtitulo-home{
     font-weight: bolder;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
 }
-.trajetoria p{
-    color: #2c71e1;
-
+.text-home{
+    margin-bottom: 1.5rem;
+    font-size: 1.5em;
 }
 
 /*traçado pela foto 
@@ -68,11 +61,12 @@ figure {
         background-color: #354650;
     }
 }
-*/
-    
+
 
 .img-foto-home {
     position: relative;
     z-index: 1;
     width: 200px;
 }
+
+*/

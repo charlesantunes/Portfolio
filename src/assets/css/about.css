@@ -1,27 +1,32 @@
-@import url(_reset.css);
-@import url(_variaveis.css);
-@import url(base/base.css);
-
-body{
-    background-image: url("../img/Montanha.gif");
-    background-repeat: no-repeat;
-    background-size: 100%;
+.tela2-about{
+    background-image: url("../img/background-gif/mario4.gif");
     object-fit: cover;
-    color: #fff;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .container-main-about{
     display: flex;
-    margin: .5rem  0  0 280px;
+    padding:1.5rem  0  0 300px;
     height: 90vh;
-    font-size:1rem;
-    font-weight: 400;
-    font-family: 'Press Start 2P', cursive;
+    font-weight: bolder;
+    font-family: cursive;
+    color: #fff;
 }
-.trajetoria{
-    margin: 2rem 3rem 0 0;
-}
-.trajetoria h2{
-    font-size:1.5rem;
-    text-align: center;
+
+.titulo-about{
+    
+    font-size: 1.6rem;
     margin-bottom: 1rem;
+    text-align: center;
+}
+.container-about{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-about1{
+    width: 70%;
+    font-size: 1.5rem;
+}
+.text-about2 {
+    font-size: 1.5rem;
 }

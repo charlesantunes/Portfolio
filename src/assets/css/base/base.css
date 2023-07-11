@@ -4,7 +4,17 @@
 @import url(../components/botao.css);
 @import url(../components/modal.css);
 @import url(../components/card.css);
+@import url(../about.css);
+@import url(../project.css);
+@import url(../skill.css);
 
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+/*================= Menu ==========================*/
 .barra-menu{
 	width: 270px;
 	height: 100%;
@@ -28,15 +38,6 @@
 	flex-direction: column;
 	justify-content: space-between;
 }	
-*{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: 'Quando', serif;
-	scroll-behavior: smooth;
-	text-decoration: none;
-}
-
 .list-menu li{
 	width: 50%;
 	margin: 0 auto;
@@ -58,15 +59,36 @@
 	width: 45px;
 }
 
+/*transição das telas*/
+body{
+	overflow-x: hidden;
+}
+.telas {
+	display: flex;
+	width: 400vw;
+}
+
+.tela1-home {
+	width: 100vw;
+}
+
+.tela2-about {
+	width: 100vw;
+}
+
+.tela3-project {
+	width: 100vw;
+}
+.tela4-skill{
+	width: 100vw;
+}
 
 
 
-
-
-
+/*Responsivo
 
 @media(min-width: 800px) {
-  .container {
+	.container {
 		padding-right: 2.5rem;
 		padding-left: 2.5rem;	
 	}
@@ -78,3 +100,4 @@
 		padding-right: calc((100vw - 900px)/2);
 	}
 }
+*/
